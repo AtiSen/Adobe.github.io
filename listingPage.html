@@ -1,0 +1,154 @@
+<html>
+    <head> 
+        <title> Shopping Cart</title>
+        <link href="css/bootstrap.css"  rel="stylesheet" />
+        <link href="css/bootstrap.min.css"  rel="stylesheet" />
+        <link href="style/style.css"  rel="stylesheet" />
+        <link href="css/jquery-ui.css"  rel="stylesheet" />
+        <link href="css/jquery.range.css"  rel="stylesheet" />
+        <link href="css/normalize.css" rel="stylesheet" />
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <!--<script src="js/bootstrap.min.js"></script>
+        <script src="js/npm.js"></script>-->
+        <script src="js/jquery.range.js"></script>
+        <style>
+         .stepper-widget { margin:30px auto;}
+         </style>
+       <script src="js/stepper.widget.js"></script>
+
+        <script type="text/javascript">
+        $( document ).ready(function($) {
+            $('.range-slider').jRange({
+               from: 0,
+               to: 100,
+               step: 1,
+               scale: [0,100],
+               format: '%s',
+               width: 170,
+               showLabels: true,
+               isRange : true
+             });
+             $('#showmodal').click(function(){
+                  $('#modal').show();
+               });
+            $('.close').click(function(){
+               $('#modal').hide();
+            });
+            // $('.slider').jRange('updateRange', '0,100');
+         });
+        </script>
+         <script>
+            jQuery.noConflict();
+        </script>
+        
+         <script>
+            jQuery(document).on('ready', function(){
+                jQuery('.stepper-widget').stepper();
+
+                jQuery('.stepper-widget').on('stepperupdate', function(ev, data){
+                    console.log(data.updateType);
+                });
+            });
+        </script>
+        
+    </head>
+    <body>
+        <div class="jumbotron-fluid classBlue">
+        <div class="container">
+            <div id="burst-12"></div>
+
+            <div>
+                <div class=""></div>
+                <div class=""> </div>
+            </div>
+             
+                
+        </div>
+
+        <div class="container margin30">
+            <div class="row">
+               
+               <div class="left-pull col-lg-7 border-rt">
+                        <ul class="list-page">
+                           <li>
+                              <img src="images/laptop120x120.png" width="120px" height="120px" />
+                              <div>
+                                 <p> Item 1</p>
+                                 <p><span> Rs 319</span> <span class="green">64% Off</span> </p>
+                                    <div class="step-widget">
+                                          <form class="form-inline">
+                                             <div class="stepper-widget">
+                                                <button type="button" class="js-qty-down btn btn-primary" style="width:15px;">-</button>
+                                                <input type="text" class="js-qty-input form-control" style="width:50px;" value="1" />
+                                                <button type="button" class="js-qty-up btn btn-danger" style="width:15px;">+</button>
+                                             </div>
+                                             </form>
+                                     </div>
+                              </div>
+                           </li>
+                           <li>
+                              <img src="images/laptop120x120.png" width="120px" height="120px" />
+                              <div>
+                                 <p> Item 1</p>
+                                 <p><span>Rs 319</span> <span class="green">64% Off</span> </p>
+                                 <div class="step-widget">
+                                    <form class="form-inline">
+                                       <div class="stepper-widget">
+                                          <button type="button" class="js-qty-down btn btn-primary" style="width:15px;">-</button>
+                                          <input type="text" class="js-qty-input form-control" style="width:50px;" value="1" />
+                                          <button type="button" class="js-qty-up btn btn-danger" style="width:15px;">+</button>
+                                       </div>
+                                       </form>
+                                 </div>
+                              </div>
+                           </li>
+                           <li>
+                              <img src="images/laptop120x120.png" width="120px" height="120px" />
+                              <div>
+                                 <p> Item 1</p>
+                                 <p><span>Rs 319</span> <span class="green">64% Off</span> </p>
+                                 <div class="step-widget">
+                                    <form class="form-inline">
+                                       <div class="stepper-widget">
+                                          <button type="button" class="js-qty-down btn btn-primary" style="width:15px;">-</button>
+                                          <input type="text" class="js-qty-input form-control" style="width:50px;" value="1" />
+                                          <button type="button" class="js-qty-up btn btn-danger" style="width:15px;">+</button>
+                                       </div>
+                                       </form>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                  
+                  </div>     
+          
+           <div class="right-pull col-lg-3">
+              <div class="white-bg">
+                  <h3>Price Details</h3>
+                  <div style="border-bottom:1px solid #333;">
+                     <p>Price (1 Item): <span class="rupees"> rs 900</span></p>
+                     <p>Discount : <span class="rupees"> rs 576</span></p>
+                  </div>
+                  <p class="grey-bold">Total Payable<span class="rupees"> rs 319</span></p>
+                   
+
+              </div>
+            
+           </div>
+        </div>
+    </div>
+
+    <div id="modal">
+      <div class="insertscreen">
+         <div class="rangeModal">
+         <input type="range" class="slider-input slider range-slider" value="23" />
+                    <p>Price</p>
+                    <button class="apply">Apply</button>
+          <p class="close">X</p>
+      </div>
+   </div>
+  </div>
+  
+    </body>
+</html>
