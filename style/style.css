@@ -1,398 +1,398 @@
 *{
-    margin:0;
-    padding:0;
+  margin:0;
+  padding:0;
 }
 
 body{
-    background-color:#c5dbe0;
+  background-color:#c5dbe0;
 }
 
 .classBlue{
-    background-color:#0000ff;
-    height:50px;
-    padding-top:10px;
+  background-color:#0000ff;
+  height:50px;
+  padding-top:10px;
 }
 #burst-12 {
-    background: yellow;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    text-align: center;
-    margin-top:2px;
-    margin-left:20px;
-  }
-  #burst-12:before,
-  #burst-12:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 30px;
-    width: 30px;
-    background: yellow;
-  }
-  #burst-12:before {
-    transform: rotate(30deg);
-  }
-  #burst-12:after {
-    transform: rotate(60deg);
-  }
+  background: yellow;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  margin-top:2px;
+  margin-left:20px;
+}
+#burst-12:before,
+#burst-12:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background: yellow;
+}
+#burst-12:before {
+  transform: rotate(30deg);
+}
+#burst-12:after {
+  transform: rotate(60deg);
+}
 
-  ul{
-    list-style-type: none;
-    float:left;
-    margin-top: 5px;
-  }
-
-  ul li{
-      float:left;
-      width:100px;
-  }
-
-  ul li a{
-      font-size: 12px;
-      color:#999;
-  }
-  ul li a:hover{
-      color:#0000ff;
-  }
-  ul li a.active{
-      color:#0000ff;
-      text-decoration: underline;
-  }
-
-  h4{
-      width:80%;
-      float:left;
-      margin:10px 0 0 0;
-  }
-
-  .border-rt{
-      border-right:1px solid #f1f1f1;
-      min-height:500px;
-      height:100%;
-  }
-
-  .green{
-      color:green;
-      font-size:11px;
-  }
-
-  .small-txt{
-      font:10px;
-      color:#000;
-      font-size: bold;
-  }
- span{
-     display:block;
-     font:Arial
- }
- .shoppingCart li{
-      min-height:100px;
-      height:auto;
-      padding-top:20px;
-      margin:0 auto;
-      text-align:center;
-      width:150px;
- }
-
- .shoppingCart li img{
-     width:80px !important;
-     height:80px !important;
-     display:block;
- }
-
- .shoppingCart li span{
-   font-size:10px;
-   font-weight: lighter;
-   display: block;
-   width:100px;
- }
-
- .shoppingCart li span.small-txt{
-  font-size:10px;
-  font-weight: bold;
-  display:block;
+ul{
+  list-style-type: none;
   float:left;
+  margin-top: 5px;
+}
+
+ul li{
+    float:left;
+    width:100px;
+}
+
+ul li a{
+    font-size: 12px;
+    color:#999;
+}
+ul li a:hover{
+    color:#0000ff;
+}
+ul li a.active{
+    color:#0000ff;
+    text-decoration: underline;
+}
+
+h4{
+    width:80%;
+    float:left;
+    margin:10px 0 0 0;
+}
+
+.border-rt{
+    border-right:1px solid #f1f1f1;
+    min-height:500px;
+    height:100%;
+}
+
+.green{
+    color:green;
+    font-size:11px;
+}
+
+.small-txt{
+    font:10px;
+    color:#000;
+    font-size: bold;
+}
+span{
+   display:block;
+   font:Arial
+}
+.shoppingCart li{
+    min-height:100px;
+    height:auto;
+    padding-top:20px;
+    margin:0 auto;
+    text-align:center;
+    width:150px;
+}
+
+.shoppingCart li img{
+   width:80px !important;
+   height:80px !important;
+   display:block;
+}
+
+.shoppingCart li span{
+ font-size:10px;
+ font-weight: lighter;
+ display: block;
+ width:100px;
+}
+
+.shoppingCart li span.small-txt{
+font-size:10px;
+font-weight: bold;
+display:block;
+float:left;
 
 }
 
 .shoppingCart li span.green{
-    color:green;
-    font-weight:bold;
-    float:left;
-    font-size: 10px;
-    margin-left:4px;
-    line-height:16px;
-    float:right;
+  color:green;
+  font-weight:bold;
+  float:left;
+  font-size: 10px;
+  margin-left:4px;
+  line-height:16px;
+  float:right;
 }
 .remove{
-  display: block;
-  color:#333;
-  font-weight:12px;
-  width:100px;
-  margin-top:10px;
+display: block;
+color:#333;
+font-weight:12px;
+width:100px;
+margin-top:10px;
 }
- button{
-     background-color:#fcd303;
-     color:#000;
-     font-size:12px;
-     border-radius:5px;
-     width:80px;
-     border:none;
-     margin-top:10px;
-     height:30px;
-     line-height: 14px;
- }
+button{
+   background-color:#fcd303;
+   color:#000;
+   font-size:12px;
+   border-radius:5px;
+   width:80px;
+   border:none;
+   margin-top:10px;
+   height:30px;
+   line-height: 14px;
+}
 .margin30{
-    margin-top:30px;
+  margin-top:30px;
 }
 
 /*.background-white{
-    background-color:#fff;
+  background-color:#fff;
 }*/
 
 /****************Range**********************/
 
 .range{
-    width:40%;
-    height:50px;
-   /* background-color:#fff;*/
-   margin:50px 0;
+  width:40%;
+  height:50px;
+ /* background-color:#fff;*/
+ margin:50px 0;
 }
 
 .slider, .slidervertical {
+  position:absolute;
+  left:0px;
+  top:0px;
+  overflow:visible;
+  z-index:100;
+}
+
+.label {
+  vertical-align:middle;
+  display:inline-block;
+  color: white;
+  text-transform:uppercase;
+  letter-spacing:.02em;
+}
+
+
+/* .slidertrack is the visible track on which the user drags the thumb button. */
+.slidertrack {
+  border-radius:4px;
+  position:absolute;
+  /*background: #61c2ca;*/
+}
+
+
+
+/* .sliderfill adds color (or a gradient as seen here) to the track as the user 
+    drags the thumb. */
+.sliderfill {
+    position:absolute;
+    pointer-events:none;
+}
+   
+
+/* .sliderthumb can be any css you like including an image. 
+    The dimensions must match those found in the rule for 
+    input[type=range]::-webkit-slider-thumb. */
+.sliderthumb {
+    width:30px;;
+    height:30px;
+    display:block;
+    /*background:white;*/
+    border-radius:50%;
+    background-position:0px 0px;
     position:absolute;
     left:0px;
     top:0px;
-    overflow:visible;
-    z-index:100;
-  }
-
-.label {
-    vertical-align:middle;
-    display:inline-block;
-    color: white;
-    text-transform:uppercase;
-    letter-spacing:.02em;
-  }
-
-  
-  /* .slidertrack is the visible track on which the user drags the thumb button. */
-  .slidertrack {
-    border-radius:4px;
-    position:absolute;
-    /*background: #61c2ca;*/
-  }
-
-
-  
-  /* .sliderfill adds color (or a gradient as seen here) to the track as the user 
-      drags the thumb. */
-  .sliderfill {
-      position:absolute;
-      pointer-events:none;
-  }
-     
-  
-  /* .sliderthumb can be any css you like including an image. 
-      The dimensions must match those found in the rule for 
-      input[type=range]::-webkit-slider-thumb. */
-  .sliderthumb {
-      width:30px;;
-      height:30px;
-      display:block;
-      /*background:white;*/
-      border-radius:50%;
-      background-position:0px 0px;
-      position:absolute;
-      left:0px;
-      top:0px;
-      border:0 none;
-      padding:0px;
-      margin:0px;
-      text-align:center;
-      pointer-events:none;
-  }
-  
-  /* .slidervalue can be styled as you see fit */
-
-
-  input[type=range]:focus{
-    outline:none;
-  }
-
-  input[type=range] {
-    width:100%;
-    height:100%;
-    appearance:none;
-    margin:0px;
-    padding:0px;
     border:0 none;
-    background:transparent;
-    color:transparent;
-    overflow:visible;
-  }
-  
-  /* Make the thumbs the same size as your custom sliderthumb. 
-      they will not be visible but they will be draggable.    */
-  input[type=range]::-webkit-slider-thumb {width:40px;height:40px;
-      border-radius:0px;border:0 none;background:transparent;-webkit-appearance:none;}
-  svg {
-    width:0;
-    height:0;
-    position:absolute;
-    left:0;
-    top:0;
-  }
-
-  .showmodal{ display:none;}
-  
-  span{
-     float:left;
-  }
-
-
-  .list-page li{
-    width:500px;
-  }
-
-  /***********************************************************************/
-
-  .list-page li .step-widget{
-    float:left;
-    width:250px;
- }
-   
-  .list-page{
-     width:400px;
-    float:left;
-    display:block;
-  }
-  .list-page li{
-    float:left;
-    display:block;
-    border:1px solid #000;
-  }
-  .list-page li img{
-    float:left;
-  }
-
-  .list-page li div{
-    float:left;
-    min-width: 200px;
-    width:auto;
-    margin-left:8px;
-    margin-bottom:10px;
-  }
-
-  .white-bg{
-    background:#fff;
-    min-height:200px;
-    height:100%;
-    float:left;
-    padding:10px;
-  }
-
-  .white-bg h3{
-    font-size:14px !important;
-    font-weight:bold;
-    text-transform:uppercase;
-    color:#999;
-    line-height:20px; 
-    border-bottom:1px solid #999; 
-  }
-
-  .white-bg p{
-     color:#000;
-     float:left;
-     font-size:10px;
-     line-height:12px;
-
-  }
-  .white-bg p span.rupees{
-    color:#000;
-    float:left;
-    font-size:10px;
-    line-height:12px;
-  }
-
-  .white-bg p.grey-bold{
-      color:#333;
-      font-weight:bold;
-  }
- 
-  @media (max-width: 610px) {
-    .label {
-      display:none;
-    }
-    .slidershell {
-      margin: 0;
-    }
-    .border-rt{border:none;}
-    #showmodal{ display:block;}
- 
-  
-  .sadface {
-    background: #fefefe;
-    text-align: center;
-    padding: 16px;
-    text-transform: uppercase;
-    color: desaturate(lighten(#225378, 35%), 35%);
-  }
-
-  .list-page li .step-widget{
-    float:left;
-    width:auto !important;
-    min-width:150px;
- }
-
-  /*------------------------------------------*/
-
-  .apply{
-     width:120px;
-     height:30px;
-     background-color:#0000ff;
-     border:1px solid #0000ff;
-     border-radius:5px;
-     color:#fff;
-     font-size:11px;
-  }
-
-  .range p{
-    color:#999;
-    font-size:10px;
-  }
-  .border-rt{border:none; min-height:20px !important; height:100% !important;}
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    pointer-events:none;
 }
 
-  @media (max-width: 480px) {
-    .left-pull h5, .left-pull .range{
-      display:none;
-    }
-   .border-rt{border:none; min-height:20px !important; height:100% !important;}
-    #showmodal{ display:block;}
+/* .slidervalue can be styled as you see fit */
 
-  }
 
-  @media (max-width: 1027px) {
-    .left-pull h5, .left-pull .range{
-      display:none;
-    }
-    
-    .border-rt{border:none;}
-    
-  }
+input[type=range]:focus{
+  outline:none;
+}
 
-  /*-----------------------------*/
-  #modal{
+input[type=range] {
+  width:100%;
+  height:100%;
+  appearance:none;
+  margin:0px;
+  padding:0px;
+  border:0 none;
+  background:transparent;
+  color:transparent;
+  overflow:visible;
+}
+
+/* Make the thumbs the same size as your custom sliderthumb. 
+    they will not be visible but they will be draggable.    */
+input[type=range]::-webkit-slider-thumb {width:40px;height:40px;
+    border-radius:0px;border:0 none;background:transparent;-webkit-appearance:none;}
+svg {
+  width:0;
+  height:0;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.showmodal{ display:none;}
+
+span{
+   float:left;
+}
+
+
+.list-page li{
+  width:500px;
+}
+
+/***********************************************************************/
+
+.list-page li .step-widget{
+  float:left;
+  width:250px;
+}
+ 
+.list-page{
+   width:400px;
+  float:left;
+  display:block;
+}
+.list-page li{
+  float:left;
+  display:block;
+  border:1px solid #000;
+}
+.list-page li img{
+  float:left;
+}
+
+.list-page li div{
+  float:left;
+  min-width: 200px;
+  width:auto;
+  margin-left:8px;
+  margin-bottom:10px;
+}
+
+.white-bg{
+  background:#fff;
+  min-height:200px;
+  height:100%;
+  float:left;
+  padding:10px;
+}
+
+.white-bg h3{
+  font-size:14px !important;
+  font-weight:bold;
+  text-transform:uppercase;
+  color:#999;
+  line-height:20px; 
+  border-bottom:1px solid #999; 
+}
+
+.white-bg p{
+   color:#000;
+   float:left;
+   font-size:10px;
+   line-height:12px;
+
+}
+.white-bg p span.rupees{
+  color:#000;
+  float:left;
+  font-size:10px;
+  line-height:12px;
+}
+
+.white-bg p.grey-bold{
+    color:#333;
+    font-weight:bold;
+}
+
+@media (max-width: 610px) {
+  .label {
     display:none;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-color:rgba(0, 0, 0, 0.5);
+  }
+  .slidershell {
+    margin: 0;
+  }
+  .border-rt{border:none;}
+  #showmodal{ display:block;}
+
+
+.sadface {
+  background: #fefefe;
+  text-align: center;
+  padding: 16px;
+  text-transform: uppercase;
+  color: desaturate(lighten(#225378, 35%), 35%);
+}
+
+.list-page li .step-widget{
+  float:left;
+  width:auto !important;
+  min-width:150px;
+}
+
+/*------------------------------------------*/
+
+.apply{
+   width:120px;
+   height:30px;
+   background-color:#0000ff;
+   border:1px solid #0000ff;
+   border-radius:5px;
+   color:#fff;
+   font-size:11px;
+}
+
+.range p{
+  color:#999;
+  font-size:10px;
+}
+.border-rt{border:none; min-height:20px !important; height:100% !important;}
+}
+
+@media (max-width: 480px) {
+  .left-pull h5, .left-pull .range{
+    display:none;
+  }
+ .border-rt{border:none; min-height:20px !important; height:100% !important;}
+  #showmodal{ display:block;}
+
+}
+
+@media (max-width: 1027px) {
+  .left-pull h5, .left-pull .range{
+    display:none;
+  }
+  
+  .border-rt{border:none;}
+  
+}
+
+/*-----------------------------*/
+#modal{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.5);
 }
 #modal .insertscreen{
 position:relative;
@@ -418,141 +418,141 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColo
 }
 
 #modal .insertscreen .rangeModal{
-   padding:30px;
-   margin:0 auto;
+ padding:30px;
+ margin:0 auto;
 }
 
 /*************************************Stepper Widget *********************************/
 
 
 .button{
-     background-color:#fcd303;
-     color:#000;
-     font-size:12px;
-     border-radius:5px;
-     width:80px;
-     border:none;
-     margin-top:10px;
-     height:30px;
-     float:left;
-     display:block;
-   
+   background-color:#fcd303;
+   color:#000;
+   font-size:12px;
+   border-radius:5px;
+   width:80px;
+   border:none;
+   margin-top:10px;
+   height:30px;
+   float:left;
+   display:block;
+ 
 }
 
 
 
 /* To pretify things */
 /*ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 ul li {
-  margin: .25em 0;
+margin: .25em 0;
 }
 
 a {
-  width: 100%;
-  display: block;
-  background: rgba(0, 0, 0, 0.2);
-  color: #222;
-  padding: 1em 1.5em;
-  border-radius: 0.15em;
-  -webkit-transition: background .3s ease;
-  transition: background .3s ease;
-  text-decoration: none;
-  position: relative;
+width: 100%;
+display: block;
+background: rgba(0, 0, 0, 0.2);
+color: #222;
+padding: 1em 1.5em;
+border-radius: 0.15em;
+-webkit-transition: background .3s ease;
+transition: background .3s ease;
+text-decoration: none;
+position: relative;
 }*/
 /*a:hover {
-  background: rgba(0, 0, 0, 0.3);
+background: rgba(0, 0, 0, 0.3);
 }*/
 
 /*li.has-child:not(.is-active):not(.has-active-child) > a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: .5em;
-  width: .5em;
-  border-top: 2px solid #333;
-  border-right: 2px solid #333;
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
-  top: 50%;
-  right: 1.5em;
-  margin-top: -0.5em;
+content: "";
+display: block;
+position: absolute;
+height: .5em;
+width: .5em;
+border-top: 2px solid #333;
+border-right: 2px solid #333;
+-webkit-transform: rotate(135deg);
+transform: rotate(135deg);
+top: 50%;
+right: 1.5em;
+margin-top: -0.5em;
 }
 
 li.has-active-child > a {
-  color: #fff;
+color: #fff;
 }
 li.has-active-child > a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: .5em;
-  width: .5em;
-  border-top: 2px solid white;
-  border-right: 2px solid white;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  top: 50%;
-  right: 1.5em;
-  margin-top: -0.15em;
+content: "";
+display: block;
+position: absolute;
+height: .5em;
+width: .5em;
+border-top: 2px solid white;
+border-right: 2px solid white;
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+top: 50%;
+right: 1.5em;
+margin-top: -0.15em;
 }
 
 li li.is-active > a {
-  color: #fff;
+color: #fff;
 }
 li li.is-active > a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: .8em;
-  width: .34em;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-  top: 50%;
-  right: 1.5em;
-  margin-top: -0.6em;
+content: "";
+display: block;
+position: absolute;
+height: .8em;
+width: .34em;
+border-top: 2px solid white;
+border-left: 2px solid white;
+-webkit-transform: rotate(-135deg);
+transform: rotate(-135deg);
+top: 50%;
+right: 1.5em;
+margin-top: -0.6em;
 }
 
 .has-active-child > a {
-  color: #fff;
-  background-color: rgba(0, 128, 0, 0.5);
+color: #fff;
+background-color: rgba(0, 128, 0, 0.5);
 }
 .has-active-child > a:hover {
-  background-color: rgba(0, 128, 0, 0.7);
+background-color: rgba(0, 128, 0, 0.7);
 }
 
 .is-active > a {
-  color: #fff;
-  background-color: green;
-  cursor: default;
+color: #fff;
+background-color: green;
+cursor: default;
 }
 */
 /* serious fluff */
 /*h1 {
-  font-size: 2.5em;
-  margin-bottom: .9em;
+font-size: 2.5em;
+margin-bottom: .9em;
 }
 
 * {
-  box-sizing: border-box;
-  font-weight: 300;
+box-sizing: border-box;
+font-weight: 300;
 }
 
 code {
-  border: 1px solid #ccc;
-  background-color: #f4f4f4;
-  border-radius: 5px;
-  padding: 2px;
-  font-size: 0.9em;
+border: 1px solid #ccc;
+background-color: #f4f4f4;
+border-radius: 5px;
+padding: 2px;
+font-size: 0.9em;
 }
 
 p {
-  line-height: 1.6;
-  margin-bottom: 3em;
+line-height: 1.6;
+margin-bottom: 3em;
 }*/
 
