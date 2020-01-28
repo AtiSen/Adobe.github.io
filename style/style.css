@@ -99,8 +99,40 @@ body{
  .shoppingCart li img{
      width:80px !important;
      height:80px !important;
+     display:block;
  }
 
+ .shoppingCart li span{
+   font-size:10px;
+   font-weight: lighter;
+   display: block;
+   width:100px;
+ }
+
+ .shoppingCart li span.small-txt{
+  font-size:10px;
+  font-weight: bold;
+  display:block;
+  float:left;
+
+}
+
+.shoppingCart li span.green{
+    color:green;
+    font-weight:bold;
+    float:left;
+    font-size: 10px;
+    margin-left:4px;
+    line-height:16px;
+    float:right;
+}
+.remove{
+  display: block;
+  color:#333;
+  font-weight:12px;
+  width:100px;
+  margin-top:10px;
+}
  button{
      background-color:#fcd303;
      color:#000;
@@ -110,6 +142,7 @@ body{
      border:none;
      margin-top:10px;
      height:30px;
+     line-height: 14px;
  }
 .margin30{
     margin-top:30px;
@@ -218,14 +251,7 @@ body{
   span{
      float:left;
   }
-  .green{
-    color:green;
-    font-weight:bold;
-    float:left;
-    font-size: 10px;
-    margin-left:4px;
-    line-height:16px;
-  }
+
 
   .list-page li{
     width:500px;
@@ -369,10 +395,9 @@ body{
     background-color:rgba(0, 0, 0, 0.5);
 }
 #modal .insertscreen{
-  position:relative;
+position:relative;
 left: 25%;
 top: 25%;
-
 border:2px solid #0094ff;
 width: 50%;
 height: 50%;
@@ -398,8 +423,26 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColo
 }
 
 /*************************************Stepper Widget *********************************/
+
+
+.button{
+     background-color:#fcd303;
+     color:#000;
+     font-size:12px;
+     border-radius:5px;
+     width:80px;
+     border:none;
+     margin-top:10px;
+     height:30px;
+     float:left;
+     display:block;
+   
+}
+
+
+
 /* To pretify things */
-ul {
+/*ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -419,12 +462,12 @@ a {
   transition: background .3s ease;
   text-decoration: none;
   position: relative;
-}
-a:hover {
+}*/
+/*a:hover {
   background: rgba(0, 0, 0, 0.3);
-}
+}*/
 
-li.has-child:not(.is-active):not(.has-active-child) > a:after {
+/*li.has-child:not(.is-active):not(.has-active-child) > a:after {
   content: "";
   display: block;
   position: absolute;
@@ -488,9 +531,9 @@ li li.is-active > a:after {
   background-color: green;
   cursor: default;
 }
-
+*/
 /* serious fluff */
-h1 {
+/*h1 {
   font-size: 2.5em;
   margin-bottom: .9em;
 }
@@ -511,6 +554,5 @@ code {
 p {
   line-height: 1.6;
   margin-bottom: 3em;
-}
-
+}*/
 
